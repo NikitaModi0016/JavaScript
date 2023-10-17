@@ -25,3 +25,6 @@ console.log(JsUser.location)
 console.log(JsUser[mysym])
 
 console.log(JsUser.name = "Nikitaaaa")
+
+//to make it constant
+Object.freeze(JsUser)
